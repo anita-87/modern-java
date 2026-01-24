@@ -2,7 +2,6 @@ package com.learnJava.data;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class Student {
 
@@ -69,5 +68,9 @@ public class Student {
                 ", gender='" + gender + '\'' +
                 ", activities=" + activities +
                 '}';
+    }
+
+    public void printListOfActivities() {
+        System.out.println(activities);
     }
 }
